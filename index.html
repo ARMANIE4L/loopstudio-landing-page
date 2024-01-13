@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./bootstrap.css">
         <link rel="stylesheet" href="./style.css">
-        <!-- <script src="./bootstrap.js"></script> -->
+        <link rel="stylesheet" href="./footer.css">
         <script src="./script.js"></script>
         <title>Frontend Mentor | Loopstudios landing page</title>
     </head>
@@ -49,17 +49,16 @@
 
         <div id="container">
             <div id="interactiveCont">
-                <div id="interativevr">
-                    <img src="./images/desktop/image-interactive.jpg" alt="vr" width="600px" id="interactiveImage">
-                    <p id="interactiveText">
-                        The leader in interactive VR
-                        <br>
+                <div id="interactivevr">
+                    <img src="./images/desktop/image-interactive.jpg" alt="vr" id="interactiveImage">
+                    <div id="interactiveText">
+                        <h2>The leader in interactive VR</h2>
                         
                         Founded in 2011, Loopstudios has been producing world-class virtual reality 
                         projects for some of the best companies around the globe. Our award-winning 
                         creations have transformed businesses through digital experiences that bind 
                         to their brand.
-                    </p>
+                    </div>
         
                     
                     
@@ -68,47 +67,63 @@
     
             <div id="creations">
                 <p id="creationsText">Our creations</p>
-                <p id="seeAll">See all</p>
+                <p id="seeAllDesktop">See all</p>
             </div>
     
             <div id="creationsImageCont">
-                <div id="image1">
-                    <span id="description1">Deep earth</span>
-                </div>
+                <a id="image" href="#">
+                    <img src="./images/desktop/image-deep-earth.jpg" alt="" class="creations-desktop">
+                    <img src="./images/mobile/image-deep-earth.jpg" alt="" class="creations-mobile">
+                    <span id="description">Deep <br>earth</span>
+                </a>
     
-                <div id="image2">
-                 <span id="description2">Night arcade</span>
-                </div>
+                <a id="image" href="#">
+                    <img src="./images/desktop/image-night-arcade.jpg" alt="" class="creations-desktop">
+                    <img src="./images/mobile/image-night-arcade.jpg" alt="" class="creations-mobile">
+                 <span id="description">Night<br> arcade</span>
+                </a>
     
-                <div id="image3">
-                    <span id="description3">Soccer team VR</span>
-                </div>
+                <a id="image" href="#">
+                    <img src="./images/desktop/image-soccer-team.jpg" alt="" class="creations-desktop">
+                    <img src="./images/mobile/image-soccer-team.jpg" alt="" class="creations-mobile">
+                    <span id="description">Soccer<br> team VR</span>
+                </a>
     
-                <div id="image4">
-                    <span id="description4">The grid</span>
-                </div>
+                <a id="image" href="#">
+                    <img src="./images/desktop/image-grid.jpg" alt="" class="creations-desktop">
+                    <img src="./images/mobile/image-grid.jpg" alt="" class="creations-mobile">
+                    <span id="description">The<br> grid</span>
+                </a>
     
-                <div id="image5">
-                    <span id="description5">From up above VR</span>
-                </div>
-                <div id="image6">
-                    <span id="description6">Pocket borealis</span>
-                </div>
+                <a id="image" href="#">
+                    <img src="./images/desktop/image-from-above.jpg" alt="" class="creations-desktop">
+                    <img src="./images/mobile/image-from-above.jpg" alt="" class="creations-mobile">
+                    <span id="description">From up<br> above VR</span>
+                </a>
+                <a id="image" href="#">
+                    <img src="./images/desktop/image-pocket-borealis.jpg" alt="" class="creations-desktop">
+                    <img src="./images/mobile/image-pocket-borealis.jpg" alt="" class="creations-mobile">
+                    <span id="description">Pocket<br> borealis</span>
+                </a>
                 
-                <div id="image7">
-                    <span id="description7">The curiosity</span>
-                </div>
+                <a id="image" href="#">
+                    <img src="./images/desktop/image-curiosity.jpg" alt="" class="creations-desktop">
+                    <img src="./images/mobile/image-curiosity.jpg" alt="" class="creations-mobile">
+                    <span id="description">The <br>curiosity</span>
+                </a>
                 
-                <div id="image8">
-                    <span id="description8">Make it fisheye</span>
-                </div>
+                <a id="image" href="#">
+                    <img src="./images/desktop/image-fisheye.jpg" alt="" class="creations-desktop">
+                    <img src="./images/mobile/image-fisheye.jpg" alt="" class="creations-mobile">
+                    <span id="description">Make it <br> fisheye</span>
+                </a>
+                <p id="seeAllMobile">See all</p>
             </div>
+            
         </div>
     </body>
 
-    <div id="navbarContainerMain" class="d-block d-sm-block d-md-none">
-        <div id="navbarContainer" class="d-block d-sm-block d-md-none"></div>
-    </div>
+    <div id="navbarContainer" class="d-block d-sm-block d-md-none"></div>
     
     <footer>
         <div id="footerInnerCont">
