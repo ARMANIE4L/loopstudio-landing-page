@@ -1,0 +1,140 @@
+footer {
+    background-color: black;
+    margin-top: 80px;
+    padding: 16px 70px;
+}
+
+#footerInnerCont {
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px;
+}
+
+.footer-header {
+    color: white;
+    font-size: 1.4em;
+}
+
+#Icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+#social {
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#supportCont {
+    color: white;
+    display: flex;
+    gap: 18px;
+    font-size: 0.8em;
+    position: absolute;
+    left: 70px;
+    justify-content: start;
+    margin-top: 57px;
+}
+
+#rightsReservedCont {
+    display: flex;
+    justify-content: end;
+    color: gray;
+    position: relative;
+    bottom: 8px;
+}
+
+#smCont {
+    display: flex;
+    color: gray;
+    justify-content: end;
+    position: relative;
+    right: 15px;
+    bottom: 35px;
+}
+
+#socialMediaIcons { 
+    gap: 15px;
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        background-color: black;
+        margin-top: 80px;
+        padding: 16px 30px;
+        padding-bottom: 50px;
+    }
+    
+    
+    .footer-header {
+        color: white;
+        font-size: 1.1em;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    
+    #social {
+        width: 20px;
+        height: 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #socialMediaIcons {
+        margin-top: 10px;
+        gap: 15px;
+        position: relative;
+        display: flex;
+    }
+
+    #supportCont {
+        position: relative;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 0.8em;
+        top: 0px;
+        left: 0px;
+        margin-top: 0;
+    }
+    
+    #smCont {
+        padding-top: 20px;
+        padding-bottom: 17px;
+        display: flex;
+        color: gray;
+        font-size: 0.9em;
+        justify-content: center;
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+    
+    #footerInnerCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    #rightsReservedCont {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+}
