@@ -23,16 +23,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshots/Screenshot%20(396).png)
-![](./images/screenshots/Screenshot%20(397).png)
-![](./images/screenshots/Screenshot%20(398).png)
-![](./images/screenshots/Screenshot%20(399).png)
-![](./images/screenshots/Screenshot%20(400).png)
+![](./images/screenshots/Screenshot%20(401).png)
+![](./images/screenshots/Screenshot%20(402).png)
+![](./images/screenshots/Screenshot%20(403).png)
+![](./images/screenshots/Screenshot%20(404).png)
+![](./images/screenshots/Screenshot%20(405).png)
+![](./images/screenshots/Screenshot%20(406).png)
+![](./images/screenshots/Screenshot%20(407).png)
+![](./images/screenshots/Screenshot%20(408).png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github.com/ARMANIE4L/loopstudio-landing-page/#)
+- Live Site URL: [armanie4l.github.io/loopstudio-landing-page/#)
 
 ### Built with
 
