@@ -6,7 +6,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshoot](#screenshot)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 - [Author](#author)
